@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 
-const Config = require('./environment/environment');
+const Config = require('./config/config');
 const CommentRouter = require('./lib/routes/comment.routes');
 
 
