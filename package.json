@@ -24,9 +24,12 @@
   },
   "homepage": "https://github.com/sankita11/comments-API#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
     "db-migrate": "^0.11.11",
     "db-migrate-mysql": "^2.1.1",
     "express": "^4.17.1",
+    "mocha": "^8.2.1",
     "mysql2": "^2.2.5"
   },
   "devDependencies": {
