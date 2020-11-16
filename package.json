@@ -1,0 +1,36 @@
+{
+  "name": "comments-api",
+  "version": "1.0.0",
+  "description": "This is a small scale Javascript based comment API service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankita11/comments-API.git"
+  },
+  "keywords": [
+    "RestAPI",
+    "Node.js",
+    "Comments"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankita11/comments-API/issues"
+  },
+  "homepage": "https://github.com/sankita11/comments-API#readme",
+  "dependencies": {
+    "db-migrate": "^0.11.11",
+    "db-migrate-mysql": "^2.1.1",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.7",
+    "nodemon": "^2.0.6"
+  }
+}
