@@ -35,7 +35,12 @@ npm start
 
 The server should be running on ```http://localhost:3002/```
 
-### Rest API Endpoints
+### 5. Test API
+```
+npm test
+```
+
+## Rest API Endpoints
 
 #### ```GET```
 
