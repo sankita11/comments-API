@@ -23,7 +23,7 @@ cd comment-api
 db-migrate up 
 ```
 
-This will comments create table in the database
+This will create ```comments``` table in the database
 
 ### 4. Update config
 Update the **user, password and databasename** in **database.json** and **config/config.js**
